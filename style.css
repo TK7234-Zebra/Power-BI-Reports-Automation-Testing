@@ -1,0 +1,63 @@
+/* General table styles */
+.dataframe {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
+    font-size: 0.9em;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .dataframe thead tr {
+    background-color: #30518f;
+    color: #ffffff;
+    text-align: left;
+  }
+  
+  .dataframe th,
+  .dataframe td {
+    padding: 12px 15px;
+  }
+  
+  /* Zebra striping for rows */
+  .dataframe tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+  }
+  
+  /* Hover effect for rows */
+  .dataframe tbody tr:hover {
+    background-color: #f2f2f2;
+  }
+  
+  /* Style for links */
+  .dataframe a {
+    color: #1a1a1a;
+    text-decoration: none;
+    transition: color 0.3s ease-out;
+  }
+  
+  .dataframe a:hover {
+    color: #003d98;
+  }
+  
+  /* Style adjustments for cells with errors */
+  .has_error {
+    background-color: #ffcccc;
+  }
+  
+  /* Adjust text alignment */
+  .dataframe th {
+    text-align: center;
+  }
+  
+  .dataframe td {
+    text-align: center;
+  }
+  
+  /* Header styles */
+  .dataframe thead th {
+    font-size: 1em;
+    letter-spacing: 0.05em;
+  }
+  
